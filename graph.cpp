@@ -19,7 +19,7 @@ void Graph::textPreprocess(std::string& str) {
 		}
 	}
 	for (char& c : str) {
-		if (std::isalpha(c)) break;
+		if (std::isalpha(c)) break;//
 		c = 0;
 	}
 }
